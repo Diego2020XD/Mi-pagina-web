@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.contenedor {
+    width:100%;
+    background-color: #3a3a3a;
+    overflow: hidden;
+}
+
+.imagen{
+    width: 100%;
+    height:300px;
+    background-image: url("../img/informatica.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.nav{
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav span{
+    width:23.2%;
+    background-color:#222222;
+    float: left;
+    text-align: center;
+    padding:10px 10px;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    transition: all 200ms linear;
+}
+
+.nav b{
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.nav span:hover{
+background-color: yellow;
+}
+
+.nav span:hover b{
+    color:black;
+}
+
+/*Diseño del contenido central*/
+
+.contenido{
+    width: 100%;
+    background-color: red;
+}
+
+
+
+.texto {
+width:90%;
+margin-left:5%;
+margin-top: 50px;
+float: left;
+}
+
+.texto h2{
+ color: yellow;
+ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+ font-size: 30px;
+ margin-top: 30px;
+ text-transform: uppercase;
+}
+
+.texto img {
+width: 30%;
+margin-top: 20px;
+}
+
+.texto p{
+ color: white;
+ line-height:1.7em;
+ font-size: 18px;
+ text-align: justify;
+ margin-top: 30px;
+ font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.texto li{
+    color: white;
+    font-size: 18px;
+    line-height:1.7em;
+    text-align: justify;
+    margin-top:20px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.indice{
+ width:25%;
+ height: 200px;
+ margin-left: 3%;
+ margin-top: 50px;
+ background-color: teal;
+ float: left;
+}
+
+.bibliografia{
+    width:25%;
+    height: 200px;
+    margin-left: 3%;
+    margin-top: 50px;
+    background-color: teal;
+    float: left;  
+}
+
+/*Diseño del footer*/
+.footer{
+ width: 100%;
+ height:60px;
+ background-color: #222222;
+ text-align: center;
+ overflow: hidden;
+ float: left;
+ margin-top: 50px;
+}
+
+.footer b{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-top:13px;
+    margin-left:32%;
+    padding: 5px 5px;
+}.contenedor .contenido p {
+}
+.texto h1 mark {
+}
+.texto h1 mark {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.contenido .texto p {
+}
